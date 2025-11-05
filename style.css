@@ -32,7 +32,6 @@ body {
 .header-link {
     font-size:18px;
     color:#e5e7eb;
-
 }
 
 .segment {
@@ -43,7 +42,32 @@ body {
 }
 
 .hero {
-    background:red;
+    background:#1f2937;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.hero-left {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.hero-text {
+    font-size:48px;
+    font-weight:900;
+    color:#f9faf8;
+}
+
+.hero-subtext {
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.hero-right {
+    display:flex;
+    flex:1;
 }
 
 .pictures {
