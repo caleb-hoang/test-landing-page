@@ -41,6 +41,18 @@ body {
     padding-right:150px;
 }
 
+.button {
+    display:flex;
+    height:40px;
+    width:110px;
+    background-color:#3882f6;
+    justify-content:center;
+    align-items:center;
+    border-radius:14px;
+    color:white;
+    margin-top: 10px;
+}
+
 .hero {
     background:#1f2937;
     justify-content:space-between;
@@ -133,12 +145,48 @@ body {
 }
 
 .quote {
-    background:#e5e7eb
+    background:#e5e7eb;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.quotetext-large {
+    font-size:36px;
+    color:#1f2937;
+    font-weight:100;
+}
+
+.quotetext-small {
+    font-size:20px;
+    text-align:right;
 }
 
 .action-call {
     background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
+
+.callbox {
+    display:flex;
+    width: 1000px;
+    height: 150px;
+    background-color:#3882f6;
+    border-radius: 25px;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+}
+
+.callbox-left {
+    display:flex;
+    flex-direction:column;
+    padding:60px;
+    
+}
+
 
 .footer {
     display:flex;
@@ -148,4 +196,6 @@ body {
     padding-left:150px;
     padding-right:150px;
     background:#1f2937;
+    justify-content:center;
+    align-items:center;
 }
